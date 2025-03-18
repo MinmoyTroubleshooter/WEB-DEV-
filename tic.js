@@ -24,7 +24,7 @@ const resetGame = () => {
   enableBoxes();
   msgContainer.classList.add("hide");
 };
-
+//adding events using forEach , addEventListener
 boxes.forEach((box) => {
   box.addEventListener("click", () => {
     if (turnO) {
@@ -36,7 +36,7 @@ boxes.forEach((box) => {
       box.innerText = "X";
       turnO = true;
     }
-    box.disabled = true;
+    box.disabled = true;// disabling the innertext means you can change what is click
     count++;
 
     let isWinner = checkWinner();

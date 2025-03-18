@@ -4,12 +4,12 @@
   }
   
   body {
-    background-color: #548687;
+    background-color: #54876b;
     text-align: center;
   }
   
   .container {
-    height: 70vh;
+    height: 70vh;/*70 percentage of the page will get by the container */
     display: flex;
   
     justify-content: center;
@@ -31,9 +31,9 @@
     width: 18vmin;
     border-radius: 1rem;
     border: none;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
     font-size: 8vmin;
-    color: #b0413e;
+    color: #28e90a;
     background-color: #ffffc7;
   }
   
