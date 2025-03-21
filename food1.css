@@ -7,7 +7,6 @@ body {
 .img-responsive {
   max-width: 100%;
 }
-
 .hero_image {
 	background: url(heroimage.jpg) no-repeat;
 	-webkit-background-size: cover;
@@ -15,7 +14,6 @@ body {
 	height: 100vh;
 	position: relative;
 }
-
 .hero_wrapper {
 	color:white;
 	position: absolute;
@@ -23,19 +21,15 @@ body {
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
-
 .hero_wrapper h1 {
 	font-size: 2.4rem;
 	text-align: center;
 }
-
-
 .hero_wrapper span {
 	margin-left: 5rem;
 	display: inline-block;
 	margin-bottom: .5rem;
 }
-
 .form_code {
 	text-align: center;
 }
@@ -77,13 +71,9 @@ body {
 	width: 32%;
 	margin-left: .5rem;
 }
-
-
 .product__list__item:first-of-type {
 	margin-left: 0;
 }
-
-
 @media screen and (max-width: 700px) {
 	.product__list__item { 
 		width: 100%;
